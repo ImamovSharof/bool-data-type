@@ -7,5 +7,14 @@
   Returns:
       bool
   */
+bool func(a, b){
 
-void main() {}
+  bool x=a==b;
+   return x;
+
+}
+
+void main() {
+  print(func(3, 1));
+  
+}
