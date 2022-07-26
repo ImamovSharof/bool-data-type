@@ -8,4 +8,10 @@
         bool
     */
 
-void main() {}
+bool func(a,b){
+    bool z=a!=b;
+    return z;
+}
+void main() {
+    print(func(5,5));
+}
