@@ -6,11 +6,11 @@
     Returns:
         bool
     */
-bool func(a){
-    bool z=a%2>0;
-    return z;
+bool func(int a) {
+  bool z = a % 2 == 1;
+  return z;
 }
 
 void main() {
-    print(func(6));
+  print(func(27));
 }
